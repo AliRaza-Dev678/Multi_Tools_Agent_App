@@ -1,0 +1,40 @@
+@"
+# Environment variables / secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/cache/
+
+# Misc
+*.bak
+*.tmp
+"@ | Out-File -FilePath .gitignore -Encoding utf8

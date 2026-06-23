@@ -1,0 +1,17 @@
+wikipedia
+langchain
+langchain-core
+langchain-community
+langgraph
+langchain-groq
+langchain-huggingface
+langchain-postgres
+pgvector
+psycopg[binary]
+sqlalchemy
+ddgs
+requests==2.32.4
+python-dotenv
+pydantic
+numpy
+streamlit
