@@ -1,17 +1,4 @@
-"""
-Multi-tool AI agent (web search, weather, currency conversion, Wikipedia)
-served through a Streamlit chat UI, powered by Groq + LangGraph.
 
-Local development:
-1. Copy .env.example to .env and fill in your real keys.
-2. pip install -r requirements.txt
-3. streamlit run app.py
-
-Streamlit Cloud deployment:
-1. Push everything EXCEPT .env to GitHub (.gitignore already excludes it).
-2. In your Streamlit Cloud app's Settings -> Secrets, paste the contents
-   of .streamlit/secrets.toml.example with your real keys filled in.
-"""
 
 import json
 import os
